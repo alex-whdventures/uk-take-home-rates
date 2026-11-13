@@ -1,0 +1,181 @@
+{
+  "taxYear": "2028-29",
+  "status": "projection",
+  "notes": [
+    "Projection: thresholds frozen to April 2031; Scottish, student loan and child benefit figures carried forward.",
+    "National Living Wage carried forward from 2026-27 for the salary sacrifice floor check."
+  ],
+  "personalAllowance": 12570,
+  "allowanceTaperThreshold": 100000,
+  "incomeTax": {
+    "rUK": [
+      {
+        "name": "basic",
+        "upTo": 37700,
+        "rate": 0.2
+      },
+      {
+        "name": "higher",
+        "upTo": 125140,
+        "rate": 0.4
+      },
+      {
+        "name": "additional",
+        "upTo": null,
+        "rate": 0.45
+      }
+    ],
+    "wales": [
+      {
+        "name": "basic",
+        "upTo": 37700,
+        "rate": 0.2
+      },
+      {
+        "name": "higher",
+        "upTo": 125140,
+        "rate": 0.4
+      },
+      {
+        "name": "additional",
+        "upTo": null,
+        "rate": 0.45
+      }
+    ],
+    "scotland": [
+      {
+        "name": "starter",
+        "upTo": 3967,
+        "rate": 0.19
+      },
+      {
+        "name": "basic",
+        "upTo": 16956,
+        "rate": 0.2
+      },
+      {
+        "name": "intermediate",
+        "upTo": 31092,
+        "rate": 0.21
+      },
+      {
+        "name": "higher",
+        "upTo": 62430,
+        "rate": 0.42
+      },
+      {
+        "name": "advanced",
+        "upTo": 125140,
+        "rate": 0.45
+      },
+      {
+        "name": "top",
+        "upTo": null,
+        "rate": 0.48
+      }
+    ]
+  },
+  "nationalInsurance": {
+    "primaryThreshold": 12570,
+    "upperEarningsLimit": 50270,
+    "mainRate": 0.08,
+    "upperRate": 0.02,
+    "secondaryThreshold": 5000,
+    "employerRate": 0.15
+  },
+  "studentLoans": {
+    "plan1": {
+      "threshold": 26900,
+      "rate": 0.09
+    },
+    "plan2": {
+      "threshold": 29385,
+      "rate": 0.09
+    },
+    "plan4": {
+      "threshold": 33795,
+      "rate": 0.09
+    },
+    "plan5": {
+      "threshold": 25000,
+      "rate": 0.09
+    },
+    "postgrad": {
+      "threshold": 21000,
+      "rate": 0.06
+    }
+  },
+  "salarySacrificeNiCap": null,
+  "childBenefit": {
+    "eldestWeekly": 27.05,
+    "additionalWeekly": 17.9,
+    "hicbcStart": 60000,
+    "hicbcEnd": 80000
+  },
+  "taxFreeChildcareIncomeLimit": 100000,
+  "childcare": {
+    "incomeLimit": 100000,
+    "minQuarterlyEarnings": 2643.68,
+    "notes": [
+      "Minimum earnings carried forward from 2026-27 (NLW uprating from April 2027 not yet applied)."
+    ],
+    "taxFreeChildcare": {
+      "rate": 0.2,
+      "capPerChild": 2000,
+      "capPerDisabledChild": 4000,
+      "maxAge": 11,
+      "maxAgeDisabled": 16
+    },
+    "england": {
+      "workingParentHoursPerWeek": 30,
+      "universalHours3to4PerWeek": 15,
+      "weeks": 38
+    },
+    "wales": {
+      "offerChildcareHoursPerWeek": 20,
+      "universalEducationHoursPerWeek": 10,
+      "weeks": 48,
+      "incomeTest": "gross"
+    },
+    "scotland": {
+      "universalHours3to4PerYear": 1140
+    },
+    "northernIreland": {}
+  },
+  "pensionAllowances": {
+    "annualAllowance": 60000,
+    "taperThresholdIncome": 200000,
+    "taperAdjustedIncome": 260000,
+    "minimumTaperedAllowance": 10000,
+    "moneyPurchaseAnnualAllowance": 10000,
+    "basicAmountWithoutEarnings": 3600
+  },
+  "nationalLivingWageHourly": 12.71,
+  "payPeriods": {
+    "source": "Carried forward from 2026-27 (annual NI and student loan thresholds unchanged in this file).",
+    "weekly": {
+      "niPrimaryThreshold": 242,
+      "niUpperEarningsLimit": 967,
+      "niSecondaryThreshold": 96,
+      "studentLoans": {
+        "plan1": 517.3,
+        "plan2": 565.09,
+        "plan4": 649.9,
+        "plan5": 480.76,
+        "postgrad": 403.84
+      }
+    },
+    "monthly": {
+      "niPrimaryThreshold": 1048,
+      "niUpperEarningsLimit": 4189,
+      "niSecondaryThreshold": 417,
+      "studentLoans": {
+        "plan1": 2241.66,
+        "plan2": 2448.75,
+        "plan4": 2816.25,
+        "plan5": 2083.33,
+        "postgrad": 1750
+      }
+    }
+  }
+}

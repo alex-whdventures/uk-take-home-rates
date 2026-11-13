@@ -1,0 +1,25 @@
+{
+  "updated": "2026-11-13",
+  "years": [
+    {
+      "taxYear": "2025-26",
+      "status": "confirmed"
+    },
+    {
+      "taxYear": "2026-27",
+      "status": "confirmed"
+    },
+    {
+      "taxYear": "2027-28",
+      "status": "provisional"
+    },
+    {
+      "taxYear": "2028-29",
+      "status": "projection"
+    },
+    {
+      "taxYear": "2029-30",
+      "status": "projection"
+    }
+  ]
+}
