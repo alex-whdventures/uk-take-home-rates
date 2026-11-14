@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "years": [
     {
       "taxYear": "2025-26",
@@ -20,6 +20,15 @@
     {
       "taxYear": "2029-30",
       "status": "projection"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "tax-year-2027-28",
+      "date": "2027-04-06",
+      "title": "New tax year starts today",
+      "body": "2027-28 rates now apply to your pay. Open Headroom to see your take-home for the new year and check your first payslip.",
+      "source": "UK tax year runs 6 April to 5 April (HMRC, gov.uk/income-tax-rates)."
     }
   ]
 }
