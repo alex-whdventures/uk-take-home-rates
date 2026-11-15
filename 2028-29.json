@@ -135,6 +135,8 @@
       "offerChildcareHoursPerWeek": 20,
       "universalEducationHoursPerWeek": 10,
       "weeks": 48,
+      "termWeeks": 39,
+      "holidayChildcareHoursPerWeek": 30,
       "incomeTest": "gross"
     },
     "scotland": {

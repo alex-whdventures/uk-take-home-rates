@@ -118,9 +118,7 @@
   "childcare": {
     "incomeLimit": 100000,
     "minQuarterlyEarnings": 2747.68,
-    "notes": [
-      "Minimum earnings carried forward from 2026-27 (NLW uprating from April 2027 not yet applied)."
-    ],
+    "notes": [],
     "taxFreeChildcare": {
       "rate": 0.2,
       "capPerChild": 2000,
@@ -137,6 +135,8 @@
       "offerChildcareHoursPerWeek": 20,
       "universalEducationHoursPerWeek": 10,
       "weeks": 48,
+      "termWeeks": 39,
+      "holidayChildcareHoursPerWeek": 30,
       "incomeTest": "gross"
     },
     "scotland": {
