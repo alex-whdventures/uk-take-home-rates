@@ -2,10 +2,10 @@
   "taxYear": "2027-28",
   "status": "provisional",
   "notes": [
-    "rUK income tax and NI confirmed unchanged at Autumn Budget 28 Oct 2026.",
+    "rUK income tax and NI: headline rates unchanged (Budget 2026, 28 Oct 2026); thresholds frozen to April 2028 (Budget 2025).",
     "Scottish bands carried forward from 2026-27 until the Scottish Budget (Jan 2027).",
-    "Student loan thresholds and child benefit rates carried forward from 2026-27 until published.",
-    "National Living Wage carried forward from 2026-27 for the salary sacrifice floor check."
+    "Child benefit £28.00 / £18.55 a week (HMRC provisional, 10 Nov 2026). Plan 2 threshold £29,385 (frozen, Budget 2025). Other student loan thresholds carried forward from 2026-27 until published.",
+    "National Living Wage £13.21 from April 2027 (GOV.UK); Tax-Free Childcare minimum earnings £13.21 x 16 hours x 13 weeks = £2,747.68 a quarter."
   ],
   "personalAllowance": 12570,
   "allowanceTaperThreshold": 100000,
@@ -109,15 +109,15 @@
   },
   "salarySacrificeNiCap": null,
   "childBenefit": {
-    "eldestWeekly": 27.05,
-    "additionalWeekly": 17.9,
+    "eldestWeekly": 28,
+    "additionalWeekly": 18.55,
     "hicbcStart": 60000,
     "hicbcEnd": 80000
   },
   "taxFreeChildcareIncomeLimit": 100000,
   "childcare": {
     "incomeLimit": 100000,
-    "minQuarterlyEarnings": 2643.68,
+    "minQuarterlyEarnings": 2747.68,
     "notes": [
       "Minimum earnings carried forward from 2026-27 (NLW uprating from April 2027 not yet applied)."
     ],
@@ -152,7 +152,7 @@
     "moneyPurchaseAnnualAllowance": 10000,
     "basicAmountWithoutEarnings": 3600
   },
-  "nationalLivingWageHourly": 12.71,
+  "nationalLivingWageHourly": 13.21,
   "payPeriods": {
     "source": "Carried forward from 2026-27 (annual NI and student loan thresholds unchanged in this file).",
     "weekly": {

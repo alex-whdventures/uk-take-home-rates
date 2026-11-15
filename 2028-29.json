@@ -3,7 +3,7 @@
   "status": "projection",
   "notes": [
     "Projection: thresholds frozen to April 2031; Scottish, student loan and child benefit figures carried forward.",
-    "National Living Wage carried forward from 2026-27 for the salary sacrifice floor check."
+    "Child benefit, National Living Wage (£13.21) and Tax-Free Childcare minimum earnings carried forward from 2027-28."
   ],
   "personalAllowance": 12570,
   "allowanceTaperThreshold": 100000,
@@ -107,15 +107,15 @@
   },
   "salarySacrificeNiCap": null,
   "childBenefit": {
-    "eldestWeekly": 27.05,
-    "additionalWeekly": 17.9,
+    "eldestWeekly": 28,
+    "additionalWeekly": 18.55,
     "hicbcStart": 60000,
     "hicbcEnd": 80000
   },
   "taxFreeChildcareIncomeLimit": 100000,
   "childcare": {
     "incomeLimit": 100000,
-    "minQuarterlyEarnings": 2643.68,
+    "minQuarterlyEarnings": 2747.68,
     "notes": [
       "Minimum earnings carried forward from 2026-27 (NLW uprating from April 2027 not yet applied)."
     ],
@@ -150,7 +150,7 @@
     "moneyPurchaseAnnualAllowance": 10000,
     "basicAmountWithoutEarnings": 3600
   },
-  "nationalLivingWageHourly": 12.71,
+  "nationalLivingWageHourly": 13.21,
   "payPeriods": {
     "source": "Carried forward from 2026-27 (annual NI and student loan thresholds unchanged in this file).",
     "weekly": {
