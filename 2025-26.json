@@ -1,7 +1,9 @@
 {
   "taxYear": "2025-26",
   "status": "confirmed",
-  "notes": [],
+  "notes": [
+    "NI Childcare Subsidy Scheme: 15%, cap £184 a month per child (£2,208 a year), extended to school-age children from 1 Sept 2025 (education-ni.gov.uk, 27 May 2025 and 17 Aug 2026); modelled for the whole year."
+  ],
   "personalAllowance": 12570,
   "allowanceTaperThreshold": 100000,
   "incomeTax": {
@@ -136,7 +138,11 @@
     "scotland": {
       "universalHours3to4PerYear": 1140
     },
-    "northernIreland": {}
+    "northernIreland": {
+      "subsidyRate": 0.15,
+      "subsidyCapPerChildPerYear": 2208,
+      "subsidyMaxAge": 11
+    }
   },
   "pensionAllowances": {
     "annualAllowance": 60000,

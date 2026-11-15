@@ -1,7 +1,9 @@
 {
   "taxYear": "2026-27",
   "status": "confirmed",
-  "notes": [],
+  "notes": [
+    "NI Childcare Subsidy Scheme continues at 15% from 1 April 2026 with the cap raised 10% (education-ni.gov.uk, 11 March 2026): £184 x 1.10 x 12 = £2,428.80 a year per child."
+  ],
   "personalAllowance": 12570,
   "allowanceTaperThreshold": 100000,
   "incomeTax": {
@@ -137,7 +139,11 @@
     "scotland": {
       "universalHours3to4PerYear": 1140
     },
-    "northernIreland": {}
+    "northernIreland": {
+      "subsidyRate": 0.15,
+      "subsidyCapPerChildPerYear": 2428.8,
+      "subsidyMaxAge": 11
+    }
   },
   "pensionAllowances": {
     "annualAllowance": 60000,

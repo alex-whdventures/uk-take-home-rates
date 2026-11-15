@@ -4,7 +4,8 @@
   "notes": [
     "Projection: thresholds frozen to April 2031; Scottish, student loan and child benefit figures carried forward.",
     "Salary sacrifice NI relief capped at £2,000 from 6 April 2029 (NIC (Employer Pensions Contributions) Act 2026). HMRC detailed guidance pending.",
-    "Child benefit, National Living Wage (£13.21) and Tax-Free Childcare minimum earnings carried forward from 2027-28."
+    "Child benefit, National Living Wage (£13.21) and Tax-Free Childcare minimum earnings carried forward from 2027-28.",
+    "NI Childcare Subsidy Scheme carried forward from 2026-27 (15%, £2,428.80 cap)."
   ],
   "personalAllowance": 12570,
   "allowanceTaperThreshold": 100000,
@@ -117,9 +118,7 @@
   "childcare": {
     "incomeLimit": 100000,
     "minQuarterlyEarnings": 2747.68,
-    "notes": [
-      "Minimum earnings carried forward from 2026-27 (NLW uprating from April 2027 not yet applied)."
-    ],
+    "notes": [],
     "taxFreeChildcare": {
       "rate": 0.2,
       "capPerChild": 2000,
@@ -143,7 +142,11 @@
     "scotland": {
       "universalHours3to4PerYear": 1140
     },
-    "northernIreland": {}
+    "northernIreland": {
+      "subsidyRate": 0.15,
+      "subsidyCapPerChildPerYear": 2428.8,
+      "subsidyMaxAge": 11
+    }
   },
   "pensionAllowances": {
     "annualAllowance": 60000,

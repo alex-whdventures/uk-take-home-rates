@@ -5,7 +5,8 @@
     "rUK income tax and NI: headline rates unchanged (Budget 2026, 28 Oct 2026); thresholds frozen to April 2028 (Budget 2025).",
     "Scottish bands carried forward from 2026-27 until the Scottish Budget (Jan 2027).",
     "Child benefit £28.00 / £18.55 a week (HMRC provisional, 10 Nov 2026). Plan 2 threshold £29,385 (frozen, Budget 2025). Other student loan thresholds carried forward from 2026-27 until published.",
-    "National Living Wage £13.21 from April 2027 (GOV.UK); Tax-Free Childcare minimum earnings £13.21 x 16 hours x 13 weeks = £2,747.68 a quarter."
+    "National Living Wage £13.21 from April 2027 (GOV.UK); Tax-Free Childcare minimum earnings £13.21 x 16 hours x 13 weeks = £2,747.68 a quarter.",
+    "NI Childcare Subsidy Scheme for 2027-28 not yet confirmed: 15% and the 2026-27 cap carried forward."
   ],
   "personalAllowance": 12570,
   "allowanceTaperThreshold": 100000,
@@ -142,7 +143,11 @@
     "scotland": {
       "universalHours3to4PerYear": 1140
     },
-    "northernIreland": {}
+    "northernIreland": {
+      "subsidyRate": 0.15,
+      "subsidyCapPerChildPerYear": 2428.8,
+      "subsidyMaxAge": 11
+    }
   },
   "pensionAllowances": {
     "annualAllowance": 60000,
